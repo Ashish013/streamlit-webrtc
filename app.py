@@ -22,7 +22,6 @@ from streamlit_webrtc import (
     ClientSettings,
     VideoTransformerBase,
     WebRtcMode,
-    webrtc_streamer,
 )
 
 HERE = Path(__file__).parent
