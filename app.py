@@ -18,11 +18,7 @@ import numpy as np
 import streamlit as st
 from aiortc.contrib.media import MediaPlayer
 
-from streamlit_webrtc import (
-    ClientSettings,
-    VideoTransformerBase,
-    WebRtcMode,
-)
+from streamlit_webrtc import ClientSettings,VideoTransformerBase,WebRtcMode
 
 HERE = Path(__file__).parent
 
